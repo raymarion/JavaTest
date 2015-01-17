@@ -9,6 +9,12 @@ public class ClassA {
 	private int pri;
 	
 	protected int pro;
+
+	public ClassA() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
 	
 	
 

@@ -3,6 +3,8 @@
  */
 package main;
 
+import packageA.ClassA;
+
 /**
  * @author ray
  *
@@ -20,6 +22,10 @@ public class Main {
 		str1 = str1+"123";
 		System.out.println(str1);
 		System.out.println(str2);
+		
+		//test the encapsulate of OOP
+		ClassA a = new ClassA();
+		a.pub = 2;
 		
 
 	}
